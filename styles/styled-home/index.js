@@ -21,7 +21,6 @@ const StyledImageBackground = styled(Image)`
 `;
 
 const BoxTitle = styled.div`
-  z-index: 2;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,4 +45,39 @@ const TitleApp = styled.h1`
   }
 `;
 
-export { ContainerHome, StyledImageBackground, BoxTitle, TitleApp };
+const ContainerEvents = styled.div`
+  margin-top: 60px;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+const BoxScreen = styled.div`
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+`;
+
+const TitleAlert = styled.h1`
+  font-family: "Russo One", sans-serif;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 20px;
+  color: white;
+`;
+
+export {
+  ContainerHome,
+  StyledImageBackground,
+  BoxTitle,
+  TitleApp,
+  ContainerEvents,
+  BoxScreen,
+  TitleAlert
+};
