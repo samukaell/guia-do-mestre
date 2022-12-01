@@ -60,6 +60,13 @@ const StyledImage = styled.div`
   }
 `;
 
+const BoxPartipation = styled.div`
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+
 export {
   StylesMain,
   TitleEvent,
@@ -69,4 +76,5 @@ export {
   Time,
   Datatime,
   StyledImage,
+  BoxPartipation
 };

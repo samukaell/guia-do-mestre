@@ -1,3 +1,4 @@
+import Participation from "../Parcipation";
 import {
   StylesMain,
   TitleEvent,
@@ -6,7 +7,8 @@ import {
   Time,
   Data,
   Datatime,
-  StyledImage
+  StyledImage,
+  BoxPartipation,
 } from "./styles";
 
 export default function Events(props) {
@@ -15,7 +17,7 @@ export default function Events(props) {
     <StylesMain>
       <TitleText>
         <StyledImage>
-            <img src={image} alt='imagem capa da sessao'/>
+          <img src={image} alt="imagem capa da sessao" />
         </StyledImage>
         <TitleEvent>{title}</TitleEvent>
         <TextEvent>{text}</TextEvent>
@@ -24,6 +26,10 @@ export default function Events(props) {
         <Time>{time}</Time>
         <Data> - {data}</Data>
       </Datatime>
+      <BoxPartipation>
+        <TextEvent>Você vai participar da sessão ?</TextEvent>
+        <Participation />
+      </BoxPartipation>
     </StylesMain>
   );
 }
