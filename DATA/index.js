@@ -11,27 +11,35 @@ const events = [
 
 const perfil = [
     {
+        image: 'https://recenthighlights.com/wp-content/uploads/2021/04/Solo-Leveling-148.png',
         nick: 'Ichiro Ito',
         nv: 5,
         xp: 2000,
+        description: 'Ichiro Ito é o unico filho de Tatsu Ito, o representante do clã Ito. Quando Ichiro completou 21 anos Tatsu o expulou do clã para que Ichiro mudasse seu carater arrogante e egoista. Mas talvez Tatsu tenha cometiodo seu maior erro.',
         id: 0
     },
     {
+        image: null,
         nick: 'Esmeralda',
         nv: 5,
         xp: 2000,
+        description: 'Personagem',
         id: 1
     },
     {
+        image: null,
         nick: 'Iron',
         nv: 5,
         xp: 2000,
+        description: 'Personagem',
         id: 2
     },
     {
+        image: null,
         nick: 'Dracares',
         nv: 5,
         xp: 2000,
+        description: 'Personagem',
         id: 3
     }
 ]
@@ -79,4 +87,30 @@ const user = [
     },
 ]
 
-export {events,perfil};
+const xpNiveis = [
+    {n : 0,},
+    {n : 300,},
+    {n : 900,},
+    {n : 2700,},
+    {n : 6500,},
+
+    {n : 14000,},
+    {n : 23000,},
+    {n : 34000,},
+    {n : 48000,},
+    {n : 64000,},
+
+    {n : 85000,},
+    {n : 100000,},
+    {n : 120000,},
+    {n : 140000,},
+    {n : 165000,},
+
+    {n : 195000,},
+    {n : 225000,},
+    {n : 265000,},
+    {n : 305000,},
+    {n : 355000,},
+]
+
+export {events,perfil,xpNiveis};

@@ -11,7 +11,7 @@ export default function Welcome() {
   }
   return (
     <ContainerHome>
-      <StyledImageBackground src={capa}/>
+      <StyledImageBackground src={capa} alt="capa"/>
       <StyledImage src={logo}/>
       <BoxTitle>
         <TitleApp><p>Gerenciador</p><p className="d">de</p><p>Sessão</p></TitleApp>

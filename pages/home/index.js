@@ -1,12 +1,14 @@
 import {
-  ContainerHome,
-  StyledImageBackground,
   BoxTitle,
   TitleApp,
   ContainerEvents,
-  BoxScreen,
   TitleAlert
 } from "../../styles/styled-home/index.js";
+import {
+  StyladeMain,
+  BoxScreen,
+  StyledImageBackground,
+} from "../../styles/Background/styles";
 import capa from "../../public/assests/capa4.jpg";
 import Header from "../../components/Header/index.js";
 import Events from "../../components/Events/index.js";
@@ -20,8 +22,8 @@ export default function Home() {
     console.log('Event list', eventsList);
   }, []);
   return (
-    <ContainerHome>
-      <StyledImageBackground src={capa} />
+    <StyladeMain>
+      <StyledImageBackground src={capa} alt="capa"/>
       <BoxScreen>
         <Header />
         <BoxTitle>
@@ -46,6 +48,6 @@ export default function Home() {
           )}
         </ContainerEvents>
       </BoxScreen>
-    </ContainerHome>
+    </StyladeMain>
   );
 }

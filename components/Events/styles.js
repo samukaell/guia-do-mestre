@@ -26,9 +26,9 @@ const TextEvent = styled.p`
 `;
 
 const TitleText = styled.div`
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-left: 2vw;
   margin-right: 2vw;
 `;
@@ -54,11 +54,19 @@ const StyledImage = styled.div`
   width: 90%;
   display: flex;
   justify-content: center;
-  img{
+  img {
     width: 100%;
     border-radius: 10px;
   }
-
 `;
 
-export { StylesMain, TitleEvent, TextEvent, TitleText, Data, Time, Datatime, StyledImage };
+export {
+  StylesMain,
+  TitleEvent,
+  TextEvent,
+  TitleText,
+  Data,
+  Time,
+  Datatime,
+  StyledImage,
+};
